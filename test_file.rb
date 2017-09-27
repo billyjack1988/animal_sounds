@@ -23,7 +23,7 @@ class Test_Cat < Minitest::Test
 
     def test_func
         animal = Kat.new("jake")
-        assert_equal("jake says meow", animal.info_cat)
+        assert_equal("jake says meow", animal.info)
     end
     
      def test_dog_name
@@ -39,7 +39,7 @@ class Test_Cat < Minitest::Test
 
     def test_func_dog
         animal = Dog.new("timmy")
-        assert_equal("timmy says whoof", animal.info_dog)
+        assert_equal("timmy says whoof", animal.info)
     end
 
     def test_fox_name
@@ -55,7 +55,7 @@ class Test_Cat < Minitest::Test
     
     def test_func_fox
         animal = Fox.new("tiny rick")
-        assert_equal("tiny rick says ring ring ding ding", animal.info_fox)
+        assert_equal("tiny rick says ring ring ding ding", animal.info)
     end
 
 

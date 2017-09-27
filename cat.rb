@@ -6,7 +6,7 @@ class Kat
         @sound = "meow"
     end
 
-    def info_cat
+    def info
         @name + " says " + @sound
     end
 

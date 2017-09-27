@@ -6,7 +6,7 @@ class Dog
         @sound = "whoof"
     end
 
-    def info_dog
+    def info
         @name + " says " + @sound
     end
 
