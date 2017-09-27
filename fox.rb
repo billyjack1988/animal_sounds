@@ -6,7 +6,7 @@ class Fox
         @sound = "ring ring ding ding"
     end
 
-    def info
+    def info_fox
         @name + " says " + @sound
     end
 
