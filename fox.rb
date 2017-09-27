@@ -1,9 +1,9 @@
-class Kat
+class Fox
     
     attr_reader :name, :sound 
     def initialize(name)
         @name = name 
-        @sound = "meow"
+        @sound = "ring ring ding ding"
     end
 
     def info
@@ -11,6 +11,3 @@ class Kat
     end
 
 end
-
-
-
