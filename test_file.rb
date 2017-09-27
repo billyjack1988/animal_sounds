@@ -18,6 +18,12 @@ class Test_Cat < Minitest::Test
         assert_equal("meow", animal.sound)
         assert_equal("puddin", animal.name)
     end
+
+    def test_func
+        animal = Kat.new("jake")
+        assert_equal("jake says meow", animal.info)
+    end
+    
     
     
 

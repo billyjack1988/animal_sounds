@@ -5,7 +5,10 @@ class Kat
         @name = name 
         @sound = "meow"
     end
-    
+
+    def info
+        @name + " says " + @sound
+    end
 
 end
 
